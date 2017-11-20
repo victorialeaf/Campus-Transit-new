@@ -26,7 +26,7 @@ class LoginVC: UIViewController {
         if let email = txtEmail.text, let password = txtPassword.text{
             Auth.auth().signIn(withEmail: email, password: password) { (user, error) in
                 if user != nil {
-                    let vc = self.storyboard?.instantiateViewController(withIdentifier: "HomepageVC")
+                    let vc = self.storyboard?.instantiateViewController(withIdentifier: "tab")
                     self.present(vc!, animated: true, completion: nil)
                 }
                 else{

@@ -20,6 +20,11 @@
 		5CF334F21F8AF1C2003F1E0F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF334F01F8AF1C2003F1E0F /* LoginViewController.swift */; };
 		5CF334F31F8AF1C2003F1E0F /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF334F11F8AF1C2003F1E0F /* RegisterViewController.swift */; };
 		5CF334F51F8AF282003F1E0F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5CF334F41F8AF282003F1E0F /* GoogleService-Info.plist */; };
+		5CF922291FC25A6800F63F14 /* man-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CF922281FC25A6800F63F14 /* man-7.png */; };
+		5CF9222F1FC25AC400F63F14 /* home-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CF9222E1FC25AC400F63F14 /* home-7.png */; };
+		5CF922311FC25AD000F63F14 /* pin-map-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CF922301FC25ACF00F63F14 /* pin-map-7.png */; };
+		5CF922331FC25ADF00F63F14 /* lock-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CF922321FC25ADF00F63F14 /* lock-7.png */; };
+		5CF922351FC25AEE00F63F14 /* book-simple-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CF922341FC25AEE00F63F14 /* book-simple-7.png */; };
 		7293681DD500F0E32B02BBEE /* Pods_CampusTransit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F3AE4912C278AC5EA4B4083 /* Pods_CampusTransit.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +45,12 @@
 		5CF334F01F8AF1C2003F1E0F /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		5CF334F11F8AF1C2003F1E0F /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		5CF334F41F8AF282003F1E0F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5CF922271FC259DD00F63F14 /* 0199a4dff44f47f46818c6a2709006bf.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0199a4dff44f47f46818c6a2709006bf.jpg; sourceTree = "<group>"; };
+		5CF922281FC25A6800F63F14 /* man-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "man-7.png"; path = "../../../../Desktop/man-7.png"; sourceTree = "<group>"; };
+		5CF9222E1FC25AC400F63F14 /* home-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "home-7.png"; path = "../../../home-7.png"; sourceTree = "<group>"; };
+		5CF922301FC25ACF00F63F14 /* pin-map-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pin-map-7.png"; path = "../../../pin-map-7.png"; sourceTree = "<group>"; };
+		5CF922321FC25ADF00F63F14 /* lock-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "lock-7.png"; path = "../../../lock-7.png"; sourceTree = "<group>"; };
+		5CF922341FC25AEE00F63F14 /* book-simple-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "book-simple-7.png"; path = "../../../book-simple-7.png"; sourceTree = "<group>"; };
 		9E690A353BFA4ACCC4154262 /* Pods-CampusTransit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampusTransit.release.xcconfig"; path = "Pods/Target Support Files/Pods-CampusTransit/Pods-CampusTransit.release.xcconfig"; sourceTree = "<group>"; };
 		A4EFCE7BE9D0526239CB5AC7 /* Pods-CampusTransit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampusTransit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CampusTransit/Pods-CampusTransit.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -68,6 +79,12 @@
 		5C97D94C1FC21E6B007CE72C /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				5CF922281FC25A6800F63F14 /* man-7.png */,
+				5CF922341FC25AEE00F63F14 /* book-simple-7.png */,
+				5CF922271FC259DD00F63F14 /* 0199a4dff44f47f46818c6a2709006bf.jpg */,
+				5CF9222E1FC25AC400F63F14 /* home-7.png */,
+				5CF922301FC25ACF00F63F14 /* pin-map-7.png */,
+				5CF922321FC25ADF00F63F14 /* lock-7.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -191,11 +208,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CF922311FC25AD000F63F14 /* pin-map-7.png in Resources */,
+				5CF9222F1FC25AC400F63F14 /* home-7.png in Resources */,
 				5CF334EF1F8AF1A3003F1E0F /* Main.storyboard in Resources */,
 				5CF334F51F8AF282003F1E0F /* GoogleService-Info.plist in Resources */,
+				5CF922291FC25A6800F63F14 /* man-7.png in Resources */,
 				5CF334E61F8AF0EA003F1E0F /* LaunchScreen.storyboard in Resources */,
 				5C97D94E1FC21E7C007CE72C /* 0199a4dff44f47f46818c6a2709006bf.jpg in Resources */,
 				5CF334E31F8AF0EA003F1E0F /* Assets.xcassets in Resources */,
+				5CF922331FC25ADF00F63F14 /* lock-7.png in Resources */,
+				5CF922351FC25AEE00F63F14 /* book-simple-7.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
