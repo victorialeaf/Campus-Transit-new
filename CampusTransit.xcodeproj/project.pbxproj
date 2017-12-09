@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C31DB931FD385B000491A42 /* MapMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C31DB921FD385B000491A42 /* MapMessage.swift */; };
+		5C31DB971FD38F5700491A42 /* MapViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C31DB961FD38F5700491A42 /* MapViewExtension.swift */; };
 		5C97D94E1FC21E7C007CE72C /* 0199a4dff44f47f46818c6a2709006bf.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5C97D94D1FC21E7B007CE72C /* 0199a4dff44f47f46818c6a2709006bf.jpg */; };
 		5C97D9521FC22249007CE72C /* RideRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C97D9511FC22249007CE72C /* RideRequestViewController.swift */; };
 		5C97D9541FC2225B007CE72C /* RideHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C97D9531FC2225B007CE72C /* RideHistoryViewController.swift */; };
@@ -25,11 +27,14 @@
 		5CF922311FC25AD000F63F14 /* pin-map-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CF922301FC25ACF00F63F14 /* pin-map-7.png */; };
 		5CF922331FC25ADF00F63F14 /* lock-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CF922321FC25ADF00F63F14 /* lock-7.png */; };
 		5CF922351FC25AEE00F63F14 /* book-simple-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CF922341FC25AEE00F63F14 /* book-simple-7.png */; };
+		5CF922391FCB44B400F63F14 /* background-design-with-lines-on-blue-background_1308-4823.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5CF922381FCB44B200F63F14 /* background-design-with-lines-on-blue-background_1308-4823.jpg */; };
 		7293681DD500F0E32B02BBEE /* Pods_CampusTransit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F3AE4912C278AC5EA4B4083 /* Pods_CampusTransit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4F3AE4912C278AC5EA4B4083 /* Pods_CampusTransit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CampusTransit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C31DB921FD385B000491A42 /* MapMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapMessage.swift; sourceTree = "<group>"; };
+		5C31DB961FD38F5700491A42 /* MapViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewExtension.swift; sourceTree = "<group>"; };
 		5C97D94D1FC21E7B007CE72C /* 0199a4dff44f47f46818c6a2709006bf.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 0199a4dff44f47f46818c6a2709006bf.jpg; path = ../../../Desktop/0199a4dff44f47f46818c6a2709006bf.jpg; sourceTree = "<group>"; };
 		5C97D9511FC22249007CE72C /* RideRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideRequestViewController.swift; sourceTree = "<group>"; };
 		5C97D9531FC2225B007CE72C /* RideHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideHistoryViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +56,7 @@
 		5CF922301FC25ACF00F63F14 /* pin-map-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pin-map-7.png"; path = "../../../pin-map-7.png"; sourceTree = "<group>"; };
 		5CF922321FC25ADF00F63F14 /* lock-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "lock-7.png"; path = "../../../lock-7.png"; sourceTree = "<group>"; };
 		5CF922341FC25AEE00F63F14 /* book-simple-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "book-simple-7.png"; path = "../../../book-simple-7.png"; sourceTree = "<group>"; };
+		5CF922381FCB44B200F63F14 /* background-design-with-lines-on-blue-background_1308-4823.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "background-design-with-lines-on-blue-background_1308-4823.jpg"; path = "../../../../Desktop/background-design-with-lines-on-blue-background_1308-4823.jpg"; sourceTree = "<group>"; };
 		9E690A353BFA4ACCC4154262 /* Pods-CampusTransit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampusTransit.release.xcconfig"; path = "Pods/Target Support Files/Pods-CampusTransit/Pods-CampusTransit.release.xcconfig"; sourceTree = "<group>"; };
 		A4EFCE7BE9D0526239CB5AC7 /* Pods-CampusTransit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampusTransit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CampusTransit/Pods-CampusTransit.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,6 +91,7 @@
 				5CF9222E1FC25AC400F63F14 /* home-7.png */,
 				5CF922301FC25ACF00F63F14 /* pin-map-7.png */,
 				5CF922321FC25ADF00F63F14 /* lock-7.png */,
+				5CF922381FCB44B200F63F14 /* background-design-with-lines-on-blue-background_1308-4823.jpg */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -117,6 +124,7 @@
 				5C97D9511FC22249007CE72C /* RideRequestViewController.swift */,
 				5C97D9531FC2225B007CE72C /* RideHistoryViewController.swift */,
 				5C97D9551FC22271007CE72C /* UserProfileViewController.swift */,
+				5C31DB921FD385B000491A42 /* MapMessage.swift */,
 				5CF334EE1F8AF1A3003F1E0F /* Main.storyboard */,
 				5CF334ED1F8AF11C003F1E0F /* New Group */,
 				5CF334DB1F8AF0EA003F1E0F /* AppDelegate.swift */,
@@ -126,6 +134,7 @@
 				5CF334E71F8AF0EA003F1E0F /* Info.plist */,
 				5C97D94C1FC21E6B007CE72C /* Images */,
 				5C97D94D1FC21E7B007CE72C /* 0199a4dff44f47f46818c6a2709006bf.jpg */,
+				5C31DB961FD38F5700491A42 /* MapViewExtension.swift */,
 			);
 			path = CampusTransit;
 			sourceTree = "<group>";
@@ -209,6 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CF922311FC25AD000F63F14 /* pin-map-7.png in Resources */,
+				5CF922391FCB44B400F63F14 /* background-design-with-lines-on-blue-background_1308-4823.jpg in Resources */,
 				5CF9222F1FC25AC400F63F14 /* home-7.png in Resources */,
 				5CF334EF1F8AF1A3003F1E0F /* Main.storyboard in Resources */,
 				5CF334F51F8AF282003F1E0F /* GoogleService-Info.plist in Resources */,
@@ -290,10 +300,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C31DB931FD385B000491A42 /* MapMessage.swift in Sources */,
 				5C97D9541FC2225B007CE72C /* RideHistoryViewController.swift in Sources */,
 				5C97D9561FC22271007CE72C /* UserProfileViewController.swift in Sources */,
 				5CF334F21F8AF1C2003F1E0F /* LoginViewController.swift in Sources */,
 				5CF334DE1F8AF0EA003F1E0F /* ViewController.swift in Sources */,
+				5C31DB971FD38F5700491A42 /* MapViewExtension.swift in Sources */,
 				5C97D9521FC22249007CE72C /* RideRequestViewController.swift in Sources */,
 				5CF334DC1F8AF0EA003F1E0F /* AppDelegate.swift in Sources */,
 				5CF334F31F8AF1C2003F1E0F /* RegisterViewController.swift in Sources */,
