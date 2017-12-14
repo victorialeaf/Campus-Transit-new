@@ -13,6 +13,7 @@
 		5C97D9521FC22249007CE72C /* RideRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C97D9511FC22249007CE72C /* RideRequestViewController.swift */; };
 		5C97D9541FC2225B007CE72C /* RideHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C97D9531FC2225B007CE72C /* RideHistoryViewController.swift */; };
 		5C97D9561FC22271007CE72C /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C97D9551FC22271007CE72C /* UserProfileViewController.swift */; };
+		5CB8D3BA1FE31DA1007A2E7B /* Rides.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB8D3B91FE31DA1007A2E7B /* Rides.swift */; };
 		5CEC3A8D1F98502500CD62CF /* HomepageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEC3A8C1F98502500CD62CF /* HomepageViewController.swift */; };
 		5CF334DC1F8AF0EA003F1E0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF334DB1F8AF0EA003F1E0F /* AppDelegate.swift */; };
 		5CF334DE1F8AF0EA003F1E0F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF334DD1F8AF0EA003F1E0F /* ViewController.swift */; };
@@ -39,6 +40,7 @@
 		5C97D9511FC22249007CE72C /* RideRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideRequestViewController.swift; sourceTree = "<group>"; };
 		5C97D9531FC2225B007CE72C /* RideHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideHistoryViewController.swift; sourceTree = "<group>"; };
 		5C97D9551FC22271007CE72C /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		5CB8D3B91FE31DA1007A2E7B /* Rides.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rides.swift; sourceTree = "<group>"; };
 		5CEC3A8C1F98502500CD62CF /* HomepageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepageViewController.swift; sourceTree = "<group>"; };
 		5CF334D81F8AF0EA003F1E0F /* CampusTransit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CampusTransit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CF334DB1F8AF0EA003F1E0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 				5C97D9551FC22271007CE72C /* UserProfileViewController.swift */,
 				5C31DB921FD385B000491A42 /* MapMessage.swift */,
 				5CF334EE1F8AF1A3003F1E0F /* Main.storyboard */,
+				5CB8D3B91FE31DA1007A2E7B /* Rides.swift */,
 				5CF334ED1F8AF11C003F1E0F /* New Group */,
 				5CF334DB1F8AF0EA003F1E0F /* AppDelegate.swift */,
 				5CF334DD1F8AF0EA003F1E0F /* ViewController.swift */,
@@ -309,6 +312,7 @@
 				5C97D9521FC22249007CE72C /* RideRequestViewController.swift in Sources */,
 				5CF334DC1F8AF0EA003F1E0F /* AppDelegate.swift in Sources */,
 				5CF334F31F8AF1C2003F1E0F /* RegisterViewController.swift in Sources */,
+				5CB8D3BA1FE31DA1007A2E7B /* Rides.swift in Sources */,
 				5CEC3A8D1F98502500CD62CF /* HomepageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
