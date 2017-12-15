@@ -231,7 +231,7 @@
         <!--Profile-->
         <scene sceneID="ypb-Pm-5Tb">
             <objects>
-                <viewController id="3RM-kx-D3R" sceneMemberID="viewController">
+                <viewController id="3RM-kx-D3R" customClass="UserProfileViewController" customModule="CampusTransit" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="znt-pk-lAK"/>
                         <viewControllerLayoutGuide type="bottom" id="Tct-nU-85g"/>
@@ -291,15 +291,33 @@
                                 <state key="normal" title="Save Changes">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="SaveChanges:" destination="3RM-kx-D3R" eventType="touchUpInside" id="cLr-Px-DtN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AWH-9B-Xyf">
+                                <rect key="frame" x="95" y="456" width="131" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                <state key="normal" title="Sign Out">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="SignOut:" destination="3RM-kx-D3R" eventType="touchUpInside" id="9e1-25-PE8"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Profile" image="lock-7.png" id="2MO-Fv-BDi"/>
+                    <connections>
+                        <outlet property="UpEmail" destination="ZSU-na-2jw" id="V5p-FD-hQb"/>
+                        <outlet property="UpPassword" destination="9fP-pU-fdV" id="S4S-h8-2HG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DKM-Zo-h6r" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1605" y="1646"/>
+            <point key="canvasLocation" x="1605" y="1645.7746478873239"/>
         </scene>
         <!--Request Ride-->
         <scene sceneID="q9v-bE-nMS">
