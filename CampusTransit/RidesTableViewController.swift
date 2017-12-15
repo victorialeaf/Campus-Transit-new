@@ -38,7 +38,9 @@ class RidesTableViewController: UITableViewController {
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        // Table view cells are reused and should be dequeued using a cell identifier.
         let cellIdentifier = "RidesTableViewCell"
+        
         guard let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as? RidesTableViewCell else {
             fatalError("The dequeued cell is not an instance of RidesTableViewCell")
         }
@@ -98,6 +100,19 @@ class RidesTableViewController: UITableViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    //MARK: Actions
+    @IBAction func unwindToRideRequest(sender: UIStoryboardSegue) {
+        if let sourceViewController = sender.source as? RideRequestViewController, let ride = sourceViewController.ride {
+            
+            //add new meal
+            
+            let newIndexPath = IndexPath(row: rides.count, section: 0)
+            
+            rides.append(ride)
+            tableView.insertRows(at: [newIndexPath], with: .automatic)
+        }
+    }
     
     //MARK: Private Methods
     private func loadSampleRides() {

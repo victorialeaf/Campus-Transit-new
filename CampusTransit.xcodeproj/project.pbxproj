@@ -11,7 +11,6 @@
 		5C31DB971FD38F5700491A42 /* MapViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C31DB961FD38F5700491A42 /* MapViewExtension.swift */; };
 		5C97D94E1FC21E7C007CE72C /* 0199a4dff44f47f46818c6a2709006bf.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5C97D94D1FC21E7B007CE72C /* 0199a4dff44f47f46818c6a2709006bf.jpg */; };
 		5C97D9521FC22249007CE72C /* RideRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C97D9511FC22249007CE72C /* RideRequestViewController.swift */; };
-		5C97D9541FC2225B007CE72C /* RideHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C97D9531FC2225B007CE72C /* RideHistoryViewController.swift */; };
 		5C97D9561FC22271007CE72C /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C97D9551FC22271007CE72C /* UserProfileViewController.swift */; };
 		5CB8D3BA1FE31DA1007A2E7B /* Rides.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB8D3B91FE31DA1007A2E7B /* Rides.swift */; };
 		5CB8D3BC1FE32060007A2E7B /* RidesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB8D3BB1FE32060007A2E7B /* RidesTableViewCell.swift */; };
@@ -41,12 +40,14 @@
 		5C31DB961FD38F5700491A42 /* MapViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewExtension.swift; sourceTree = "<group>"; };
 		5C97D94D1FC21E7B007CE72C /* 0199a4dff44f47f46818c6a2709006bf.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 0199a4dff44f47f46818c6a2709006bf.jpg; path = ../../../Desktop/0199a4dff44f47f46818c6a2709006bf.jpg; sourceTree = "<group>"; };
 		5C97D9511FC22249007CE72C /* RideRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideRequestViewController.swift; sourceTree = "<group>"; };
-		5C97D9531FC2225B007CE72C /* RideHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideHistoryViewController.swift; sourceTree = "<group>"; };
 		5C97D9551FC22271007CE72C /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
 		5CB8D3B91FE31DA1007A2E7B /* Rides.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rides.swift; sourceTree = "<group>"; };
 		5CB8D3BB1FE32060007A2E7B /* RidesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RidesTableViewCell.swift; sourceTree = "<group>"; };
 		5CB8D3BD1FE321FE007A2E7B /* connect-arrow-right-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "connect-arrow-right-7.png"; sourceTree = "<group>"; };
 		5CB8D3BF1FE323DB007A2E7B /* RidesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RidesTableViewController.swift; sourceTree = "<group>"; };
+		5CC908841FE352BB00359628 /* 0199a4dff44f47f46818c6a2709006bf.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 0199a4dff44f47f46818c6a2709006bf.jpg; path = ../../../../Desktop/0199a4dff44f47f46818c6a2709006bf.jpg; sourceTree = "<group>"; };
+		5CC908851FE352BE00359628 /* 0199a4dff44f47f46818c6a2709006bf.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 0199a4dff44f47f46818c6a2709006bf.jpg; path = ../../../../Desktop/0199a4dff44f47f46818c6a2709006bf.jpg; sourceTree = "<group>"; };
+		5CC908861FE352C700359628 /* 0199a4dff44f47f46818c6a2709006bf.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 0199a4dff44f47f46818c6a2709006bf.jpg; path = ../../../../Desktop/0199a4dff44f47f46818c6a2709006bf.jpg; sourceTree = "<group>"; };
 		5CEC3A8C1F98502500CD62CF /* HomepageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepageViewController.swift; sourceTree = "<group>"; };
 		5CF334D81F8AF0EA003F1E0F /* CampusTransit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CampusTransit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CF334DB1F8AF0EA003F1E0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -93,6 +94,8 @@
 		5C97D94C1FC21E6B007CE72C /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				5CC908841FE352BB00359628 /* 0199a4dff44f47f46818c6a2709006bf.jpg */,
+				5CC908851FE352BE00359628 /* 0199a4dff44f47f46818c6a2709006bf.jpg */,
 				5CB8D3BD1FE321FE007A2E7B /* connect-arrow-right-7.png */,
 				5CF922281FC25A6800F63F14 /* man-7.png */,
 				5CF922341FC25AEE00F63F14 /* book-simple-7.png */,
@@ -101,6 +104,7 @@
 				5CF922301FC25ACF00F63F14 /* pin-map-7.png */,
 				5CF922321FC25ADF00F63F14 /* lock-7.png */,
 				5CF922381FCB44B200F63F14 /* background-design-with-lines-on-blue-background_1308-4823.jpg */,
+				5CC908861FE352C700359628 /* 0199a4dff44f47f46818c6a2709006bf.jpg */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -130,8 +134,8 @@
 				5CF334F01F8AF1C2003F1E0F /* LoginViewController.swift */,
 				5CF334F11F8AF1C2003F1E0F /* RegisterViewController.swift */,
 				5CEC3A8C1F98502500CD62CF /* HomepageViewController.swift */,
+				5C31DB961FD38F5700491A42 /* MapViewExtension.swift */,
 				5C97D9511FC22249007CE72C /* RideRequestViewController.swift */,
-				5C97D9531FC2225B007CE72C /* RideHistoryViewController.swift */,
 				5C97D9551FC22271007CE72C /* UserProfileViewController.swift */,
 				5C31DB921FD385B000491A42 /* MapMessage.swift */,
 				5CB8D3B91FE31DA1007A2E7B /* Rides.swift */,
@@ -146,7 +150,6 @@
 				5CF334E71F8AF0EA003F1E0F /* Info.plist */,
 				5C97D94C1FC21E6B007CE72C /* Images */,
 				5C97D94D1FC21E7B007CE72C /* 0199a4dff44f47f46818c6a2709006bf.jpg */,
-				5C31DB961FD38F5700491A42 /* MapViewExtension.swift */,
 			);
 			path = CampusTransit;
 			sourceTree = "<group>";
@@ -314,7 +317,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C31DB931FD385B000491A42 /* MapMessage.swift in Sources */,
-				5C97D9541FC2225B007CE72C /* RideHistoryViewController.swift in Sources */,
 				5C97D9561FC22271007CE72C /* UserProfileViewController.swift in Sources */,
 				5CF334F21F8AF1C2003F1E0F /* LoginViewController.swift in Sources */,
 				5CF334DE1F8AF0EA003F1E0F /* ViewController.swift in Sources */,

@@ -331,17 +331,6 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qZJ-Ug-oBg">
-                                <rect key="frame" x="78" y="347" width="164" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="24"/>
-                                <state key="normal" title="Request Ride">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="RequestRide:" destination="eoQ-5l-nI8" eventType="touchUpInside" id="oRw-Wj-RTn"/>
-                                </connections>
-                            </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5pq-Nb-gVz">
                                 <rect key="frame" x="28" y="127" width="265" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -357,14 +346,14 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="seD-gt-z1u">
-                                <rect key="frame" x="27" y="295" width="265" height="30"/>
+                                <rect key="frame" x="28" y="285" width="265" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3EU-tL-bqO">
-                                <rect key="frame" x="32" y="261" width="158" height="21"/>
+                                <rect key="frame" x="28" y="256" width="158" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -375,15 +364,24 @@
                     </view>
                     <navigationItem key="navigationItem" title="Request Ride" id="K3b-hD-6Wh">
                         <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="Kqa-pw-cor"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="V94-Mg-mT8">
+                            <connections>
+                                <segue destination="b5U-Oh-Xh5" kind="unwind" unwindAction="unwindToRideRequestWithSender:" id="tNq-py-1QJ"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="DateLabel" destination="3EU-tL-bqO" id="gnt-LQ-QeP"/>
+                        <outlet property="DateTextField" destination="seD-gt-z1u" id="yMR-rW-0L9"/>
                         <outlet property="DropoffLabel" destination="rTr-2Y-WLb" id="LlT-vO-QY9"/>
                         <outlet property="DropoffTextField" destination="JjA-R5-WBz" id="vKC-SY-FCW"/>
                         <outlet property="PickupLabel" destination="LX1-2q-zXK" id="Tzn-Vj-Zrl"/>
                         <outlet property="PickupTextField" destination="5pq-Nb-gVz" id="PNr-RN-xnn"/>
+                        <outlet property="RequestButton" destination="V94-Mg-mT8" id="mRD-OM-wBi"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IEH-9u-9X6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="b5U-Oh-Xh5" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="3441" y="1646"/>
         </scene>
